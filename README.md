@@ -1,12 +1,13 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ff2ed207-c95e-45c3-831f-04a32675dbb5?size=32" alt="Banner Image" />
+  <img src="https://i.postimg.cc/zfCnyqgw/Screenshot-20260226-224735-Discord.jpg" alt="Banner Image" />
 </p>
 <pre align="center">
-                                _            
-  /\  /\ ___  _ __  ___  _   _ | |  ___  ___ 
- / /_/ // _ \| '__|/ __|| | | || | / _ \/ __|
-/ __  /|  __/| |  | (__ | |_| || ||  __/\__ \
-\/ /_/  \___||_|   \___| \__,_||_| \___||___/
+ _   _ _       _     _   
+| \ | (_) __ _| |__ | |_ 
+|  \| | |/ _` | '_ \| __|
+| |\  | | (_| | | | | |_ 
+|_| \_|_|\__, |_| |_|\__|
+         |___/           
 </pre>
 <p align="center">
   <img src="https://img.shields.io/github/stars/zeusssz/hercules-obfuscator?style=flat-square" alt="Stars" />
