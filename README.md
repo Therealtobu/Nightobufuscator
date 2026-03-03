@@ -8,4 +8,4 @@
 | |\  | | (_| | | | | |_ 
 |_| \_|_|\__, |_| |_|\__|
          |___/           
-         
+Originally by zeusssz, optimized and edited by Tobu
