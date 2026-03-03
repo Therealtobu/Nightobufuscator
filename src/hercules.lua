@@ -37,13 +37,12 @@ local colors = {
 local obfuscated_list = {}
 
 local BANNER = colors.blue .. [[
-                                _                      _        __   
-  /\  /\ ___  _ __  ___  _   _ | |  ___  ___   __   __/ |      / /_  
- / /_/ // _ \| '__|/ __|| | | || | / _ \/ __|  \ \ / /| |     | '_ \ 
-/ __  /|  __/| |  | (__ | |_| || ||  __/\__ \   \ V / | |  _  | (_) |
-\/ /_/  \___||_|   \___| \__,_||_| \___||___/    \_/  |_| (_)  \___/ 
-                                       ]] .. colors.reset
-
+ _   _ _       _     _   
+| \ | (_) __ _| |__ | |_ 
+|  \| | |/ _` | '_ \| __|
+| |\  | | (_| | | | | |_ 
+|_| \_|_|\__, |_| |_|\__|
+         |___/                 ]] .. colors.reset
 local function runSanityCheck(original_code, obfuscated_code)
     local function captureOutput(code)
         local output = {}
