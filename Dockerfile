@@ -1,7 +1,13 @@
-FROM python:3.12
+FROM python:3.12-bookworm
 
-# Cài Lua 5.1 + symlink
-RUN apt-get update && apt-get install -y lua5.1 \
+# Cài Lua + full deps cho pip (fix error failed to solve)
+RUN apt-get update && apt-get install -y \
+    lua5.1 \
+    build-essential \
+    libffi-dev \
+    libssl-dev \
+    python3-dev \
+    rustc cargo \
     && ln -sf /usr/bin/lua5.1 /usr/bin/lua \
     && rm -rf /var/lib/apt/lists/*
 
