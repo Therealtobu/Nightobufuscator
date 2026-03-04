@@ -1,8 +1,4 @@
-cd \~/Nightotobufuscator
-cat > requirements.txt << EOF
-discord.py>=2.4.0
+discord.py==2.3.2
 python-dotenv
 Flask
 requests
-EOF
-git add requirements.txt && git commit -m "Add requests for 0x0.st upload" && git push origin main
